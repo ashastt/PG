@@ -31,7 +31,7 @@ var game = {
 			document.getElementById('status').style.color = "red";	
 
 			setTimeout('document.getElementById("status").innerHTML = \"Guess a letter between (a-z)!\"', 3000);
-			setTimeout('document.getElementById("status").style.color= \"#ffffff\"', 3000);
+			setTimeout('document.getElementById("status").style.color= \"#abbce9\"', 3000);
 		}
 		else{
 			var appendPicks = document.getElementById("guesses");
